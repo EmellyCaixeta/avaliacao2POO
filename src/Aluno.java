@@ -46,7 +46,7 @@ public class Aluno extends Pessoa implements GerenciadorCadastroAluno {
         @Override
         public void cadastrarAluno() {
             // Implementação do método cadastrarAluno
-            System.out.println("Aluno cadastrado com sucesso!");
+            System.out.println("Exito! Aluno cadastrado com sucesso!");
         }
 
     }
