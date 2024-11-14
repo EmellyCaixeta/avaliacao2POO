@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Aluno extends Pessoa {
+public class Aluno extends Pessoa implements GerenciadorCadastroAluno {
     private int matricula; 
     private int anoIngresso; 
     private List<Nota> notas;
@@ -42,4 +42,11 @@ public class Aluno extends Pessoa {
     public void setNotas(List<Nota> notas) {
          this.notas = notas; 
         } 
+
+        @Override
+        public void cadastrarAluno() {
+            // Implementação do método cadastrarAluno
+            System.out.println("Aluno cadastrado com sucesso!");
+        }
+
     }
