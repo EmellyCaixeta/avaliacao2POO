@@ -1,18 +1,9 @@
-## Getting Started
+## Nosso projeto
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+O sistema de cadastro escolar foi elaborado por nós, Felipe, Emelly e Gabryel.
+Tivemos bastante desafios ao longo do projeto, mas contamos com a ajuda de amigos e a internet.
 
-## Folder Structure
+## Diagrama UML
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+O diagrama UML está junto com o projeto, avalie por gentileza.
+Demos nosso melhor na elaboração do trabalho.

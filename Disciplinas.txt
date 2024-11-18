@@ -1,0 +1,9 @@
+------------------- Disciplinas ----------------------- 
+Nome: Engenharia de Software
+Carga Horaria: 40
+Codigo: 1
+---------------------------------------------------
+Nome: POO
+Carga Horaria: 45
+Codigo: 2
+---------------------------------------------------

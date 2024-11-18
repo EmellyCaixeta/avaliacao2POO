@@ -1,0 +1,25 @@
+------------------- Alunos -----------------------
+Nome: Gabryel
+Data de Nascimento: 08/02/2005
+Telefone: 34999618256
+Rua: Roberto Torido
+Numero: 198
+Cidade: Uberlandia
+Estado: MG
+Cep: 38353124
+Matrícula: 503
+Ano de Ingresso: 2023
+-------------------------------------------------
+
+Nome: Felipe
+Data de Nascimento: 02/02/2003
+Telefone: 34999612312
+Rua: Rua dos Gamers
+Numero: 10
+Cidade: Ubatuba
+Estado: SP
+Cep: 39513123
+Matrícula: 504
+Ano de Ingresso: 2023
+-------------------------------------------------
+

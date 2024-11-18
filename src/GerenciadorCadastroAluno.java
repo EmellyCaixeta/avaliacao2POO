@@ -1,3 +1,5 @@
+import java.util.List;
+
 public interface GerenciadorCadastroAluno {
-    public void cadastrarAluno();
+    void cadastrarAluno(List<Aluno> alunos); //adicionar um aluno em uma lista
 }

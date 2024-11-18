@@ -1,31 +1,25 @@
+public abstract class Pessoa {
+    protected String nome;
+    protected String dataNascimento;
+    protected String telefone;
+    protected Endereco endereco;
 
-abstract class Pessoa {
-    private String nome;
-    private String dataNascimento;
-    private String telefone;
-    private Endereco endereco;
-
-    public Pessoa (String nome, String dataNascimento, String telefone, Endereco endereco) {
+    //Construtor
+    public Pessoa(String nome, String dataNascimento, String telefone, 
+                    String rua, int numero, String cidade, String estado, String cep) {
         this.nome = nome;
         this.dataNascimento = dataNascimento;
         this.telefone = telefone;
-        this.endereco = endereco;
+        this.endereco = new Endereco(rua, numero, cidade, estado, cep);
     }
 
+    //Getters
     public String getNome() {
         return nome;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
     public String getDataNascimento() {
         return dataNascimento;
-    }
-
-    public void setDataNascimento(String dataNascimento) {
-        this.dataNascimento = dataNascimento;
     }
 
     public String getTelefone() {
@@ -34,10 +28,6 @@ abstract class Pessoa {
 
     public Endereco getEndereco() {
         return endereco;
-    }
-
-    public void setEndereco(Endereco endereco) {
-        this.endereco = endereco;
     }
 
 }
